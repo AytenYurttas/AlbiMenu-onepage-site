@@ -1,0 +1,65 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+font-size: 22px !important;
+}
+
+.footer-a{
+color: white !important;
+text-decoration: none !important;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  font-weight: 900 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-top-title{
+font-size: 32px;
+font-weight: 900;
+
+}
+
+.top-card-text{
+font-size: 20px;
+
+}
+
+.courses-div{
+margin-top: 20px;
+}
+
+
+@media (min-width:950px) {
+  .card-top{
+  width: 100%;
+  }
+  .card-content{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  }
+  .card-img-top{
+  width: 50% !important;
+  margin-top: 20px !important;
+  border-radius: 20px !important;
+  }
+}
+
+@media (max-width:950px) {
+  .fixed-contact-button {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 9999;
+      font-size: 20px !important;
+  }
+}
